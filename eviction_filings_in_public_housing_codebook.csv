@@ -1,0 +1,13 @@
+variable_name,variable_type,variable_label
+pha_name,string,Public Housing Authority (PHA) name
+pha_participant_code,string,HUD PHA participant code
+pha_geography,string,PHA geographic level (3 categories: City (defined as Census place); County; Unable to distinguish between city and county)
+pha_county_fips_code,string,PHA county FIPS code (only populated for county-level PHAs)
+pha_place_fips_code,string,PHA Census place FIPS code (only populated for Census place-level PHAs)
+pha_state_fips_code,string,PHA state FIPS code
+year,numeric,Year
+pha_total_occupied_units,numeric,Number of occupied units calculated from HUD Picture of Subsidized Housing data
+pha_filings,numeric,Number of PHA eviction filings
+pha_households_threatened,numeric,Number of unique households represented in PHA eviction filings
+pha_filing_rate,numeric,PHA eviction filing rate (denominator is pha_total_occupied_units)
+pha_hhlds_threatened_rate,numeric,PHA households threatened with at least one eviction filing rate (denominator is pha_total_occupied_units)
